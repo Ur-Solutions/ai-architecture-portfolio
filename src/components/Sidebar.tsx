@@ -3,7 +3,7 @@ import sidebarTopImage from "../assets/sidebarTopImage.png";
 
 export function Sidebar() {
   return (
-    <aside id="sidebar" className="relative w-[462px] lg:fixed">
+    <aside id="sidebar" className="relative lg:fixed lg:w-[462px]">
       <section id="top-sidebar" className="h-[315px]">
         <Image
           src={sidebarTopImage}
@@ -11,7 +11,10 @@ export function Sidebar() {
           className="h-[315px] object-cover"
         />
       </section>
-      <section id="personal-info" className="flex flex-col gap-8 p-12 pt-16">
+      <section
+        id="personal-info"
+        className="flex flex-col gap-8 p-4 pt-12 md:p-12 md:pt-16"
+      >
         <h1 className="font-display text-2xl font-normal tracking-[.15em] text-brand-200">
           Tormod Haugland
         </h1>

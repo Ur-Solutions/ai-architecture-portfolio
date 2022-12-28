@@ -3,9 +3,13 @@ import sidebarTopImage from "../assets/sidebarTopImage.png";
 
 export function Sidebar() {
   return (
-    <aside id="sidebar" className="w-[462px] p-8">
+    <aside id="sidebar" className="relative w-[462px] lg:fixed">
       <section id="top-sidebar">
-        <Image src={sidebarTopImage} alt="sidebar top image" />
+        <Image
+          src={sidebarTopImage}
+          alt="sidebar top image"
+          className="h-[460px]"
+        />
       </section>
       <section id="personal-info" className="flex flex-col gap-8 p-10 pt-16">
         <h1 className="font-display text-2xl font-normal tracking-[.15em] text-brand-200">
@@ -17,9 +21,9 @@ export function Sidebar() {
           eye for detail, Tormod has been creating beautiful and functional
           spaces for his clients for over a decade. <br />
           <br />
-          Tormod's work is defined by his commitment to sustainability and his
-          ability to blend modern and traditional elements to create unique and
-          timeless designs.
+          Tormod&apos;s work is defined by his commitment to sustainability and
+          his ability to blend modern and traditional elements to create unique
+          and timeless designs.
         </p>
       </section>
     </aside>

@@ -16,7 +16,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           ></link>
         </Head>
-        <body>
+        <body className="h-screen w-screen">
           <Main />
           <NextScript />
         </body>

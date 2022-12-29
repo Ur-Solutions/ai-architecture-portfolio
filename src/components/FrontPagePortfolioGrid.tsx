@@ -10,10 +10,10 @@ export function FrontPagePortfolioGrid({
   return (
     <section
       id="portfolio"
-      className="grid flex-1 grid-flow-row grid-cols-1 gap-8 overflow-visible pb-16 md:grid-cols-2 md:pl-8 lg:ml-[462px] lg:grid-cols-3"
+      className="jpb-16 grid flex-1 grid-flow-row grid-cols-1 gap-8 overflow-visible md:grid-cols-2 md:pl-8 lg:ml-[462px] lg:grid-cols-3"
     >
       {portfolioEntries.map((entry) => (
-        <div key={entry.id} className="group">
+        <div key={entry._id} className="group">
           <Image
             src={entry.imageUrl}
             alt={entry.name}

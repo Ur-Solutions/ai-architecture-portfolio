@@ -10,11 +10,11 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 
 Feel free to fork and contribute to the project at your own will. Open an issue if you want contributor rights to the project. These will be handed out generously.
 
-Expect little to no effort on our end when it comes to allocating time to code review or pull requests.
+Expect little to no effort on our end when it comes to allocating time to pull requests.
 
 ## Usage
 
-See the [license](/LICENSE). Feel free to use the project
+See the [license](/LICENSE).
 
 ## Learn More
 

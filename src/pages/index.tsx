@@ -23,7 +23,7 @@ const Home: NextPage<HomeProps> = ({ portfolioEntries }) => {
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      <main className="flex flex-col gap-8  p-8 sm:box-border sm:w-full lg:flex-row">
+      <main className="box-border flex flex-col gap-8 p-8 sm:w-full lg:flex-row">
         <Sidebar />
         <FrontPagePortfolioGrid portfolioEntries={portfolioEntries} />
       </main>

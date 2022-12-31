@@ -1,18 +1,20 @@
-# Create T3 App
+# AI Architecture Portfolio
+
+This is a project created to test out using Midjourney and Chat GPT for rapid website prototyping.
+
+The results of the project can be found [here](https://ai-architecture-portfolio.vercel.app/).
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
+## Contribution
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Feel free to fork and contribute to the project at your own will. Open an issue if you want contributor rights to the project. These will be handed out generously.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Expect little to no effort on our end when it comes to allocating time to code review or pull requests.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Usage
+
+See the [license](/LICENSE). Feel free to use the project
 
 ## Learn More
 
@@ -22,7 +24,3 @@ To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the fo
 - [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
 
 You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
